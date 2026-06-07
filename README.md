@@ -22,7 +22,7 @@
 项目包含了一个轻量级且强大的自动同步与更新链条：
 
 1.  **增量更新脚本** ([update_site.py](update_site.py))：负责对比原站的 `/cet4` 和 `/cet6` 真题列表。若有新试题发布，则只增量下载该新页面的 HTML 和预览图片，并自动清理新页面里的页眉、页脚、注水（hydration）数据等。
-2.  **GitHub Actions 工作流** ([.github/workflows/update.yml](.github/workflows/update.yml))：每日午夜（UTC 时间 0:00，北京时间早上 8:00）自动在云端执行更新脚本。
+2.  **GitHub Actions 工作流** ([.github/workflows/update.yml](.github/workflows/update.yml))：每周日午夜（UTC 时间 0:00，北京时间周日早上 8:00）自动在云端执行更新脚本。
 3.  **Vercel 自动化部署**：更新脚本若检测到变化并提交代码到 GitHub，将立刻触发 Vercel CI/CD 的自动构建与热发布。
 
 ### 🛠️ 手动触发同步更新
