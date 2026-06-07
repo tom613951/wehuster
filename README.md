@@ -1,12 +1,12 @@
-# WeHUSTER Static Clone
+# WeHUSTER 静态归档
 
-This is a static archive/clone of [WeHUSTER](https://www.wehuster.com/), a free and open resource website for university students. 
+本仓库是 [WeHUSTER](https://www.wehuster.com/)（一个面向大学生的免费、开放的资源站）的静态存档与克隆版本。
 
-## Features
-- Fully static, self-contained HTML/CSS/JS frontend assets.
-- Clean routing structure (directly deployable on static hosting services like Vercel).
-- Optimized asset loading (Next.js server-side dynamic endpoints resolved and compiled to direct static assets).
-- PDF resources and audio (MP3) files linked directly to the official upstream servers to conserve repo size and avoid storage limit issues on GitHub.
+## 项目特点
+- 完全静态、自包含的 HTML/CSS/JS 前端资源。
+- 结构清晰的静态路由，支持直接部署于 Vercel 等静态托管服务。
+- 优化的资源加载方式（已将 Next.js 服务端动态图像端点解析并编译为直接指向的静态资产）。
+- PDF 资源和音频 (MP3) 文件直接链接至 WeHUSTER 官方原站服务器，以节省 Git 仓库大小并避免 GitHub 的存储上限限制。
 
-## Deployment
-This project is configured to deploy directly to Vercel as a static website.
+## 部署说明
+该项目已配置为直接作为静态网站部署于 Vercel。
