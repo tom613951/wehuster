@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/cet4",
+      "permanent": true
+    }
+  ]
+}
